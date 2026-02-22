@@ -9,7 +9,7 @@ A fast Electrobun desktop app template with Svelte 5 and Vite for hot module rep
 bun install
 
 # Development with HMR (recommended)
-bun run dev:hmr
+bun run dev
 
 # Build for production
 bun run build
@@ -20,7 +20,7 @@ bun run build:prod
 
 ## How HMR Works
 
-When you run `bun run dev:hmr`:
+When you run `bun run dev`:
 
 1. **Vite dev server** starts on `http://localhost:5173` with HMR enabled
 2. **Electrobun** starts and detects the running Vite server
