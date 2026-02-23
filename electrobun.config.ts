@@ -13,13 +13,13 @@ export default {
 			"dist/assets": "views/mainview/assets",
 		},
 		mac: {
-			bundleCEF: false,
+			bundleCEF: true,
 		},
 		linux: {
-			bundleCEF: false,
+			bundleCEF: true,
 		},
 		win: {
-			bundleCEF: false,
+			bundleCEF: true,
 		},
 	},
 } satisfies ElectrobunConfig;
